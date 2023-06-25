@@ -1,5 +1,6 @@
 from services import get_random_quote
-# temp = get_random_quote()
+
+temp = get_random_quote()
 # print(temp)
 
 from fastapi import FastAPI
