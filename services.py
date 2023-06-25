@@ -6,7 +6,7 @@ from random import randint
 def get_all_quotes() -> Dict:
   """
   """
-  with open("quotes.json") as quotes_file:
+  with open("quotes.json", encoding="utf8") as quotes_file:
     data = _json.load(quotes_file)
 
   return data
