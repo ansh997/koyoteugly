@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "goodreads-quotes-api"
+version = "0.1.0"
+description = "An api endpoint to get random quotes from good reads."
+authors = ["Himanshu Pal <palhimanshu997@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+numpy = "^1.22.2"
+replit = "^3.2.4"
+Flask = "^2.2.0"
+urllib3 = "^1.26.12"
+bs4 = "^0.0.1"
+scraper = "^0.1.0"
+fastapi = "^0.98.0"
+
+[tool.poetry.dev-dependencies]
+debugpy = "^1.6.2"
+replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
